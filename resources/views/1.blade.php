@@ -4,9 +4,9 @@
 	<title>Details - Step 1</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="materialize.min.css">
-	<script type="text/javascript" src="jquery-2.2.4.min.js"></script>
-	<script type="text/javascript" src="materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="/jsmaterialize.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -87,7 +87,7 @@
 												<option value="2">Cargills</option>
 											</select>
 										</div>
-										<a  href="next" class="waves-effect waves-light btn red darken-3 white-text">Next</a>
+										<a  href="{{route('details_2')}}" class="waves-effect waves-light btn red darken-3 white-text">Next</a>
 									</div>
 								</div>
 							</div>
@@ -106,7 +106,6 @@
 			<div id="footer">
 				<div align="center">
 					<div class="dotProgress-activated"></div>
-					<div class="dotProgress"></div>
 					<div class="dotProgress"></div>
 				</div>
 			</div>

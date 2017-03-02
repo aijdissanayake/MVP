@@ -4,9 +4,9 @@
 	<title>Details - Step 2</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="materialize.min.css">
-	<script type="text/javascript" src="jquery-2.2.4.min.js"></script>
-	<script type="text/javascript" src="materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -15,6 +15,8 @@
 
   	<!-- Compiled and minified JavaScript -->
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+  	<!-- <link href="css?family=Roboto" rel="stylesheet"> -->
 
 	<style>
 		.top-row{padding-top: 3rem;}
@@ -70,7 +72,7 @@
 						<div class="row">
 							<div class="col s12">
 								<div class="deep-purple darken-4 white-text center-align z-index-0" style="height: 100%">
-									<h4>A little more.</h4>
+									<h4>Nearly there.</h4>
 									<div class="card-content">
 										<!-- <div class="row">This helps us to be more accurate.</div> -->
 										<form>
@@ -148,7 +150,6 @@
 			<div align="center">
 				<div class="dotProgress"></div>
 				<div class="dotProgress-activated"></div>
-				<div class="dotProgress"></div>
 			</div>
 		</div>
 
