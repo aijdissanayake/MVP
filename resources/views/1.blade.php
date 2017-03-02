@@ -4,18 +4,13 @@
 	<title>Details - Step 1</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
-	<script type="text/javascript" src="/jsmaterialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/materialize.min.css">
+	<script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="/js/materialize.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<!-- Compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-  	<!--JQuery-->
-  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>  
-	<!-- Compiled and minified JavaScript -->
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	
 
 	<style>
 		.top-row{padding-top: 3rem;}

@@ -4,19 +4,13 @@
 	<title>Details - Step 2</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
-	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/materialize.min.css">
+	<script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="/js/materialize.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<!-- Compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-
-  	<!-- Compiled and minified JavaScript -->
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-
-  	<!-- <link href="css?family=Roboto" rel="stylesheet"> -->
+	
 
 	<style>
 		.top-row{padding-top: 3rem;}
@@ -79,7 +73,7 @@
 											<div class="row">
 												<div class="col s12 m4 offset-m4 offset-l4">
 													<div class="input-field">
-														<i class="material-icons prefix">account_circle</i>
+														<i class="material-icons prefix">accessibility</i>
 														<input type="number" class="validate" id="age" name="age" min="18" max="100" style="text-align: center">
 														<label for="age" class="grey-text text-lighten-2" style="text-align: center">Age</label>
 													</div>
@@ -90,11 +84,22 @@
 												<div class="col s12 m4 offset-m4 offset-l4">
 													<div class="input-field">
 														<i class="material-icons prefix">phone</i>
-														<input type="number" class="validate" id="telephone" name="telephone" style="text-align: center">
+														<input type="number" class="validate" id="telephone" name="telephone" style="text-align: center" min="699999099" max="9999999999">
 														<label for="telephone" class="grey-text text-lighten-2" style="text-align: center;">Mobile Number</label>
 													</div>
 												</div>
-											</div>	
+											</div>
+
+											<div class="row">
+												<div class="input-field row">
+													<!-- <i class="material-icons left col s1 m1 l1">wc</i> -->
+													<select class="col s12 m4 l2 white-text offset-l5 offset-m4" style="">
+													<option value="1">I'm a male</option>
+														<option value="2">I'm a female</option>
+														<option value="3">I'd rather not say</option>
+													</select>
+												</div>
+											</div>		
 
 											<div class="row">
 												<a href="" id="next2" class="waves-effect waves-light btn white-text disabled" style="background: #2d1a68; text-align:center;">Next</a>	
