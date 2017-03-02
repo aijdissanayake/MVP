@@ -11,11 +11,11 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-  	<!--JQuery-->
-  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<!--JQuery-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>  
 	<!-- Compiled and minified JavaScript -->
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
 	<style>
 		.top-row{padding-top: 3rem;}
@@ -80,20 +80,23 @@
 								<div class="red white-text center-align z-index-0" style="height: 100%">
 									<h4>Let's Start.</h4>
 									<div class="card-content">
-										<div class="row">What's your card type?</div>
-										<div class="input-field row">
-											<select class="col s12 m4 l2 white-text offset-l5 offset-m4" style="">
-												<option value="1">Nexus</option>
-												<option value="2">Cargills</option>
-											</select>
+										<form action="{{route('next')}}" method="post" id="appForm">
+                                        			{{ csrf_field() }}
+											<div class="row">What's your card type?</div>
+											<div class="input-field row">
+												<select class="col s12 m4 l2 white-text offset-l5 offset-m4" style="" name="superMarket">
+													<option value="Nexus">Nexus</option>
+													<option value="Cargills">Cargills</option>
+												</select>
+											</div>
+<!-- 											<a  href="{{route('next')}}" class="waves-effect waves-light btn red darken-3 white-text">Next</a> -->								<div class="input-field">                        
+                                                <input class="waves-effect waves-light btn red darken-3 white-text" type="submit" name="submit" id="submit" value="Next">
+                                            </div>
 										</div>
-										<a  href="next" class="waves-effect waves-light btn red darken-3 white-text">Next</a>
-									</div>
+									</form>
 								</div>
 							</div>
 						</div>
-
-
 					</div>
 				</main>
 			</div>

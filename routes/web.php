@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('1');
 });
 
-Route::get('/next', function () {
-    return view('2');
-});
+Route::post('/next','FormController@firstSubmit')->name('next');
