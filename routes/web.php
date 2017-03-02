@@ -10,9 +10,15 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', ['as' => 'home', 'uses' => function(){
+	return view('index');
+}]);
 
-Route::get('/', function () {
+Route::get('/details/1', ['as'=>"details_1", "uses"=>function () {
     return view('1');
-});
+}]);
 
-Route::post('/next','FormController@firstSubmit')->name('next');
+Route::post('/details/2','FormController@firstSubmit')->name('next');
+
+
+

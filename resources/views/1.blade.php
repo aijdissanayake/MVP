@@ -4,9 +4,9 @@
 	<title>Details - Step 1</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="materialize.min.css">
-	<script type="text/javascript" src="jquery-2.2.4.min.js"></script>
-	<script type="text/javascript" src="materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/materialize.min.css">
+	<script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="/js/materialize.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -16,6 +16,7 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>  
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
 
 	<style>
 		.top-row{padding-top: 3rem;}
@@ -89,7 +90,7 @@
 													<option value="Cargills">Cargills</option>
 												</select>
 											</div>
-<!-- 											<a  href="{{route('next')}}" class="waves-effect waves-light btn red darken-3 white-text">Next</a> -->								<div class="input-field">                        
+											<div class="input-field">                        
                                                 <input class="waves-effect waves-light btn red darken-3 white-text" type="submit" name="submit" id="submit" value="Next">
                                             </div>
 										</div>
@@ -109,7 +110,6 @@
 			<div id="footer">
 				<div align="center">
 					<div class="dotProgress-activated"></div>
-					<div class="dotProgress"></div>
 					<div class="dotProgress"></div>
 				</div>
 			</div>
